@@ -1,0 +1,37 @@
+<?php
+
+$conn=new mysqli('localhost','root','','lab');
+echo "Test<br>";
+if(!$conn)
+{
+	echo "Error!<br>";
+}
+else
+{
+	echo "Connection established<br>";
+}
+
+$query="create database IST";
+$db=mysqli_query($conn,$query);
+
+if(!$db)
+{
+	echo "Error!<br>";
+}
+else
+{
+	echo "Database established<br>";
+}
+
+$conn=('localhost','root','','IST');
+echo "Test<br>";
+if(!$conn)
+{
+	echo "Error!<br>";
+}
+else
+{
+	echo "Connection established<br>";
+}
+
+?>

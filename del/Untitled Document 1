@@ -1,0 +1,9 @@
+#include<stdio.h>
+void main()
+{
+ printf("My name is Hussain Imthiaz Hussain\n");
+ printf("I am 17 years old\n");
+ printf("My hobbies are : Coding , Playing sports");
+}
+  
+ 	
